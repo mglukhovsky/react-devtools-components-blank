@@ -31,7 +31,7 @@ If using Yarn, you can add a `resolutions` entry to `package.json` specifying wh
 ```
 ...then `yarn install`.
 
-Otherwise, install the Electron package at 11.1.0 (`npm install --save-dev electron@11.1.0) to download the arm64 distribution, and symlink two paths:
+Otherwise, install the Electron package at 11.1.0 (`npm install --save-dev electron@11.1.0`) to download the arm64 distribution, and symlink two paths:
 ```
 ln -s node_modules/electron/dist node_modules/react-devtools/node_modules/electron/dist
 ln -s node_modules/electron/path.txt node_modules/react-devtools/node_modules/electron/path.txt
