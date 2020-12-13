@@ -4,7 +4,7 @@ This example project demonstrates two bugs, X and Y using React DevTools in stan
 * macOS 11.0.1 Big Sur, on an Apple Silicon (M1) chip
 * Safari 14.0.1
 * React 17.0.1
-* React DevTools 4.1.1,  running in standalone mode via Electron 11.1.0 (darwin-arm64 build)
+* React DevTools 4.10.1,  running in standalone mode via Electron 11.1.0 (darwin-arm64 build)
 * New project using `create-react-app .` with the [useScript hook](https://usehooks.com/useScript/) to add the `<script>` tag required by React DevTools.
 
 There are two problems:
