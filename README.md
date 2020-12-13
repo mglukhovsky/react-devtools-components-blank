@@ -52,4 +52,4 @@ yarn start
 
 Refresh the React app if needed to establish a connection with the DevTools. The _Components_ view is blank (no matter what filters are applied):
 
-![][blank-components-react-devtools.gif]
+![](blank-components-react-devtools.gif)
