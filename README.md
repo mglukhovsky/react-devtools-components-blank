@@ -31,10 +31,14 @@ If using Yarn, you can add a `resolutions` entry to `package.json` specifying wh
 ```
 ...then `yarn install`.
 
-Otherwise, install the Electron package at 11.1.0 (`npm install --save-dev electron@11.1.0`) to download the arm64 distribution, and symlink two paths:
+Otherwise, install the Electron package at 11.1.0 (`npm install --save-dev electron@11.1.0`) to download the arm64 distribution, and symlink two paths. From the project root:
 ```
-ln -s node_modules/electron/dist node_modules/react-devtools/node_modules/electron/dist
-ln -s node_modules/electron/path.txt node_modules/react-devtools/node_modules/electron/path.txt
+ln -s ${PWD}/node_modules/electron/dist ${PWD}/node_modules/react-devtools/node_modules/electron/dist
+ln -s ${PWD}/node_modules/electron/path.txt ${PWD}/node_modules/react-devtools/node_modules/electron/path.txt
+```
+_If Electron didn't install for whatever reason:_
+```
+node node_modules/electron/install.js
 ```
 
 ## Components view is blank
